@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TaxDocumentTracker.API/TaxDocumentTracker.API.csproj" />
+    <Project Path="src/TaxDocumentTracker.Tests/TaxDocumentTracker.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,6 @@
+@TaxDocumentTracker.API_HostAddress = http://localhost:5248
+
+GET {{TaxDocumentTracker.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
