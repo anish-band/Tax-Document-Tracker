@@ -7,9 +7,9 @@ namespace TaxDocumentTracker.API.Repositories;
 
 public class FactRepository : IFactRepository
 {
-  private readonly ApplicationDbContext _context;
+  private readonly AppDbContext _context;
 
-  public FactRepository(ApplicationDbContext context)
+  public FactRepository(AppDbContext context)
   {
     _context = context;
   }

@@ -3,7 +3,7 @@ using TaxDocumentTracker.API.Entities;
 
 namespace TaxDocumentTracker.API.Services;
 
-public class FactService : IFactRepository
+public class FactService : IFactService
 {
 
   private readonly IFactRepository _repository;

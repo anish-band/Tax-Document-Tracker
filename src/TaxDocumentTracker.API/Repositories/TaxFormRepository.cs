@@ -7,9 +7,9 @@ namespace TaxDocumentTracker.API.Repositories;
 
 public class TaxFormRepository : ITaxFormRepository
 {
-  private readonly ApplicationDbContext _context;
+  private readonly AppDbContext _context;
 
-  public TaxFormRepository(ApplicationDbContext context)
+  public TaxFormRepository(AppDbContext context)
   {
     _context = context;
   }
@@ -41,6 +41,7 @@ public class TaxFormRepository : ITaxFormRepository
   public async Task DeleteAsync(int id, CancellationToken cancellationToken = default)
   {
     var taxForm = await _context.TaxForms.FindAsync(id, cancellationToken);
+    if (taxForm is null) return;
     _context.Remove(taxForm);
     await _context.SaveChangesAsync(cancellationToken);
     
