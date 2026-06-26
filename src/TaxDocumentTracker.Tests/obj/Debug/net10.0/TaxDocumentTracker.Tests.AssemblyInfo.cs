@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaxDocumentTracker.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ac0e8b2e9e5ce74540023473ab4b65b633b9fdf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8463c9768d4f5f682b70070cb92cd36d59336004")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaxDocumentTracker.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaxDocumentTracker.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
